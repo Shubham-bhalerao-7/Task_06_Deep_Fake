@@ -1,42 +1,38 @@
-Task 06 – AI Deep Fake / Street Interview
-📘 Objective
+# Create a README.md file content for Task 06 based on uploaded script and ElevenLabs voiceover
 
-The objective of this research task was to convert insights from my previous LLM analysis (Task 05) into an AI-generated interview format. The goal was to simulate a “street interview” style conversation that summarizes data-driven insights in a conversational and engaging way.
+readme_content = """
+# 🎙️ Task 06 – AI Deep Fake / Street Interview
 
-🎤 What I Created
+## 📘 Objective
+This task expands on the previous LLM analysis (Task 05) by transforming data insights into an AI-generated “street interview.” The focus is less on the final product and more on the process of generating a conversational audio summary using publicly available tools.
 
-I wrote a scripted AI interview using insights from the 2024 Syracuse Women’s Lacrosse dataset. The script focused on performance highlights, late-game struggles, and strategic recommendations. I then converted the script into a realistic voiceover using ElevenLabs, which provided natural-sounding AI-generated audio.
+## 🎤 What I Created
+Using insights from the 2024 Syracuse Women’s Lacrosse season, I wrote a scripted interview between an AI analyst and a virtual interviewer. The script highlights the team’s strengths, weaknesses, and strategic recommendations. I used ElevenLabs to turn the written script into a realistic AI voiceover.
 
-🛠️ Tools Used
+## 🛠️ Tools Used
+- **ChatGPT**: For scriptwriting and summarizing Task 05 insights
+- **ElevenLabs**: For AI voice generation (used free trial credits)
+- **Google Docs / Word**: For drafting and organizing script
+- *(Optional tools explored)*: D-ID and Canva for potential video enhancements
 
-ChatGPT – To write and refine the interview script
+## 📄 Files Included
+- `Task 6 Deep Fake AI.docx`: Final interview script
+- `audio_output.mp3`: AI-generated voiceover (produced using ElevenLabs)
+- `README.md`: This project summary and documentation
 
-ElevenLabs – To synthesize AI voiceover audio
+## ✅ Reflections
+This task helped me understand how to convert structured data into a narrative experience using AI. ElevenLabs was easy to use and created high-quality voice output. The most challenging part was pacing the script and keeping the tone natural. This method could be powerful for public-facing data storytelling.
 
-Word (.docx) – For formatting the final script
+## 🔗 Submission Info
+- GitHub Repo: https://github.com/Shubham-bhalerao-7/Task-6
+- Researcher: Shubham Bhalerao
+- Supervisor: Professor Jonathan R Stromer‑Galley
+- Reporting Form: Submitted via Qualtrics
+"""
 
-(Explored but not used) D-ID / Canva – For potential video enhancement
+# Save the README content to a markdown file
+readme_path = "/mnt/data/README_Task_06.md"
+with open(readme_path, "w") as file:
+    file.write(readme_content)
 
-📄 Files Included
-
-Task 6 Deep Fake AI.docx – The final interview script
-
-Rachel_mZvcfuHEpaNrQhRlns1r.mp3 – The AI-generated voiceover file
-
-README.md / README.docx – This summary of tools, process, and outcome
-
-✅ Reflections & Challenges
-
-Using ElevenLabs was smooth and intuitive, allowing me to generate clean audio quickly. I iterated on the script to make the tone more conversational and natural, especially for transitions between questions. The biggest challenge was making the AI voice feel like a real person and maintaining pacing that matches a human conversation. I learned how AI-generated content can turn raw stats into something digestible and engaging.
-
-🔗 Submission Info
-
-GitHub Repository: https://github.com/Shubham-bhalerao-7/Task-6
-
-Researcher: Shubham Bhalerao
-
-Submission Period: Fall 2025 (RSDK 6)
-
-Professor: Jonathan R Stromer‑Galley
-
-Qualtrics Form: Submitted ✅
+readme_path
